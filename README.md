@@ -7,11 +7,11 @@ One of the files uploaded tested 2 custom functions against 5 in-built functions
 available methods had to be conducted. Plots on running the code for pitch detection compare the frame-wise pitches for the input signal.
 
 ## Dual Source
-Once the frame-wise pitch of the speaker is known, the act of spectral subtraction is done in the file labelled [dual_source]()
+Once the frame-wise pitch of the speaker is known, the act of spectral subtraction is done in the file labelled [dual_source](https://github.com/FatherLouie/Spectral-Subtraction/blob/main/dual_source.m)
 
 ## Analysis and Synthesis
 Another approach using filter banks was also tried out, where not adding certain filter banks in order to recover certain speakers was implemented. The results for these too can be found in the file labellled
-[analysis_and_synthesis]()
+[analysis_and_synthesis](https://github.com/FatherLouie/Spectral-Subtraction/blob/main/analysis_and_synthesis.m)
 
 ## Transfer Functions
 In order to aid the filter bank creation, the theory of transfer functions was learnt and relevant properties of transfer functions were coded with plots confirming the same.
